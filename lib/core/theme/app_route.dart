@@ -17,7 +17,7 @@ class AppRoute {
         return PageRouteBuilder(
           settings: settings,
           pageBuilder: (_, __, ___) => const HomeScreen(),
-          transitionDuration: const Duration(milliseconds: 400),
+          transitionDuration: const Duration(milliseconds: 1000),
           transitionsBuilder: (_, animation, __, child) {
             return SlideTransition(
               position: Tween<Offset>(

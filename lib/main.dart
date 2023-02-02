@@ -14,11 +14,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Travel UI",
-      theme: AppTheme.light,
-      themeMode: ThemeMode.light,
       initialRoute: AppRouteName.getStarted,
       onGenerateRoute: AppRoute.generate,
     );
